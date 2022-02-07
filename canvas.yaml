@@ -1,0 +1,27 @@
+preset: package
+
+namespace: Dealskoo\Calendar
+user-auth-provider: App\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ''
+
+console:
+  namespace: Dealskoo\Calendar\Console
+
+model:
+  namespace: Dealskoo\Calendar\Models
+
+provider:
+  namespace: Dealskoo\Calendar\Providers
+
+testing:
+  namespace: Dealskoo\Calendar\Tests
